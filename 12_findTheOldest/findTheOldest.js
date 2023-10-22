@@ -8,7 +8,7 @@ function getAge(person){
     if(person.yearOfDeath){
         return person.yearOfDeath-person.yearOfBirth;
     }
-    else return new Date().getFullYear -person.yearOfBirth;
+    return new Date().getFullYear() - person.yearOfBirth;
 }
 
 // Do not edit below this line
